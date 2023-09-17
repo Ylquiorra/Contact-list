@@ -81,7 +81,7 @@ export const ContactsList = memo((props: ContactsListProps) => {
   }
 
   return (
-    <VStack gap="24" className={classNames(cls.ContactsList, {}, [className])}>
+    <VStack data-testid="ContactList" gap="24" className={classNames(cls.ContactsList, {}, [className])}>
       {contactsList.map((contactItem) => (
         <ContactItem
           key={contactItem.id}

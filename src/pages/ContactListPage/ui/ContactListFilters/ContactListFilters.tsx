@@ -42,8 +42,13 @@ export const ContactListFilters = memo((props: ContactListFiltersProps) => {
     <Card padding="16" className={classNames(cls.ContactListFilters, {}, [className])}>
       <VStack gap="8">
         <Text text={t('Поиск')} />
-        <Input placeholder={t('Дмитрий Лебедев')} value={searchValue} onChange={onChangeSearch}
-size="s" />
+        <Input
+          data-testid="ContactListFilters.SearchInput"
+          placeholder={t('Дмитрий Лебедев')}
+          value={searchValue}
+          onChange={onChangeSearch}
+          size="s"
+        />
       </VStack>
     </Card>
   )

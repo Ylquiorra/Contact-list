@@ -1,5 +1,5 @@
-function selectByTestId(testId: string): string {
-    return `[data-testid="${testId}"]`;
+export function selectByTestId(testId: string): string {
+  return `[data-testid="${testId}"]`
 }
 
-export default selectByTestId;
+export default selectByTestId

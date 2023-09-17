@@ -1,14 +1,5 @@
-import CommonCommands from './commands/common/CommonCommands'
+import * as commonCommands from './commands/common'
 
-Cypress.Commands.add('getByTestId', CommonCommands.getByTestId)
+Cypress.Commands.addAll(commonCommands)
 
-// @ts-ignore
-declare global {
-  // eslint-disable-next-line @typescript-eslint/no-namespace
-  namespace Cypress {
-    interface Chainable {
-      // common
-      getByTestId(testId: string): Chainable<string>
-    }
-  }
-}
+export {}

@@ -98,7 +98,7 @@ height={24} Svg={EditIcon} />
   )
 
   return (
-    <Card padding="16" className={classNames(cls.ContentItem, {}, [className])}>
+    <Card data-testid="ContactItem" padding="16" className={classNames(cls.ContentItem, {}, [className])}>
       <VStack align="normal" gap="24">
         <HStack gap="16">
           <div>
