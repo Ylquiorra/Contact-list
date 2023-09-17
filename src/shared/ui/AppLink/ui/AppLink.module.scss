@@ -1,0 +1,41 @@
+.primary {
+  transition: 0.2s;
+  color: var(--text);
+
+  &:hover {
+    opacity: 0.65;
+    animation: animate 0.1s linear;
+    color: var(--accent);
+  }
+
+  @keyframes animate {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0.65;
+    }
+  }
+}
+
+.red {
+  transition: 0.2s;
+  color: var(--cancel);
+
+  &:hover {
+    opacity: 0.65;
+    animation: animate 0.3s linear;
+    color: var(--cancel);
+  }
+
+  @keyframes animate {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0.65;
+    }
+  }
+}

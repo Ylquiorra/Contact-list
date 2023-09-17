@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Vladislav",
+      "password": "123",
+      "avatar": "https://sun9-60.userapi.com/impg/eqo5sYxr_jyw_yWO9_pKJRMkx8WVwVENfJrecQ/1zVSkEZs5NM.jpg?size=1620x2160&quality=95&sign=73cab6427b2934395f04d96835eb3720&type=album"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "10",
+      "name": "Сергей Кузнецоgsf",
+      "phoneNumber": "+7 (234) 567-8901",
+      "avatarLink": "https://sun9-64.userapi.com/impg/f422I-ORh9ke4PpgUMbCon5It3uk-b9g5nUbqw/EzAZ7ti9q-w.jpg?size=1017x678&quality=95&sign=1c3efa060b374cf48a83547a57645b80&type=album",
+      "comment": "Специалист по IT-поддержке",
+      "additionalInformation": "Решает технические проблемы пользователей компьютеров и программного обеспечения."
+    },
+    {
+      "id": "12",
+      "name": "Андрей Белов",
+      "phoneNumber": "+7 (333) 444-5555",
+      "avatarLink": "https://example.com/avatar12.jpg",
+      "comment": "Программист",
+      "additionalInformation": "Разрабатывает новые функциональности для наших продуктов."
+    },
+    {
+      "id": "13",
+      "name": "Виктория Макарова",
+      "phoneNumber": "+7 (555) 555-5555",
+      "avatarLink": "https://example.com/avatar13.jpg",
+      "comment": "Копирайтер",
+      "additionalInformation": "Пишет тексты для наших рекламных материалов и веб-сайта."
+    },
+    {
+      "id": "14",
+      "name": "Александр Егоров",
+      "phoneNumber": "+7 (777) 888-9999",
+      "avatarLink": "https://example.com/avatar14.jpg",
+      "comment": "Архитектор",
+      "additionalInformation": "Разрабатывает архитектуру для наших проектов."
+    },
+    {
+      "id": "15",
+      "name": "Ирина Дмитриева",
+      "phoneNumber": "+7 (111) 111-1111",
+      "avatarLink": "https://example.com/avatar15.jpg",
+      "comment": "Специалист по закупкам",
+      "additionalInformation": "Занимается закупкой материалов и оборудования для компании."
+    },
+    {
+      "id": "16",
+      "name": "Сергей Козлов",
+      "phoneNumber": "+7 (222) 333-4444",
+      "avatarLink": "https://example.com/avatar16.jpg",
+      "comment": "Специалист по продукту",
+      "additionalInformation": "Обеспечивает качество продукции и её соответствие стандартам."
+    },
+    {
+      "id": 1694878599652,
+      "name": "sfsddfdss41241",
+      "phoneNumber": "vsdfsdfsdfds1",
+      "comment": "dsfsdf434",
+      "additionalInformation": "dsfdsfsdf21421"
+    },
+    {
+      "id": 1694879769848,
+      "avatar": "https://sun9-75.userapi.com/impg/GcUZmce0N4S01hxz8KPhrcZAFrLOfnnlXSdPMQ/rCgz2RarKwY.jpg?size=1620x2160&quality=95&sign=94e2025fbe17917d4cc7c05315deba68&type=album",
+      "name": "Владислав",
+      "phoneNumber": "81233112321312",
+      "comment": "авлфалфа",
+      "additionalInformation": "ывлаыдлв"
+    },
+    {
+      "id": 1694893955961,
+      "avatar": "",
+      "name": "adad",
+      "phoneNumber": "dasdasd",
+      "comment": "dasdad",
+      "additionalInformation": "asdads"
+    }
+  ]
+}

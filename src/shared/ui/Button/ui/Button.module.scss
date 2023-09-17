@@ -1,0 +1,113 @@
+.Button {
+  transition: 0.2s;
+  cursor: pointer;
+  color: var(--text);
+  padding: 6px 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+
+  &:not(.disabled) {
+    &:hover {
+      color: var(--accent);
+      opacity: 0.8;
+      fill-opacity: 0.8;
+      stroke-opacity: 0.8;
+
+      .addonRight svg,
+      .addonLeft svg {
+        color: var(--accent)
+      }
+    }
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.clear {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.addonRight,
+.addonLeft {
+  display: flex;
+}
+
+.addonRight svg,
+.addonLeft svg {
+  color: var(--hint)
+}
+
+.filled {
+  background: var(--light-bg);
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.cancel {
+  background: var(--light-bg);
+  color: var(--cancel);
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.accept {
+  background: var(--light-bg);
+  color: var(--save);
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.outline {
+  background: none;
+  border: 2px solid var(--icon);
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.square {
+  padding: 0;
+}
+
+.square.m {
+  width: var(--font-line-m);
+  height: var(--font-line-m);
+}
+
+.square.l {
+  width: var(--font-line-l);
+  height: var(--font-line-l);
+}
+
+.square.xl {
+  width: var(--font-line-xl);
+  height: var(--font-line-xl);
+}
+
+.m {
+  font: var(--font-m);
+}
+
+.l {
+  font: var(--font-l);
+}
+
+.xl {
+  font: var(--font-xl);
+}
+
+.disabled {
+  opacity: 0.35;
+  cursor: default;
+}

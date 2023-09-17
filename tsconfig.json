@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "exclude": [
+    "./node_modules"
+  ],
+  "include": [
+    "./config/jest/setupTest.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./vite.config.ts",
+    "./config/",
+    "./webpack.config.ts"
+  ]
+}

@@ -1,0 +1,17 @@
+.app_dark_theme {
+  transition: 0.2s linear;
+
+  --dark-bg: #090f11;
+  --bg: #0c1214;
+  --light-bg: #151c1f;
+  --text: #dbdbdb;
+  --hint: #555;
+  --cancel: #d95757;
+  --save: #6cd98b;
+  --icon: #74a2b2;
+  --accent: #5ed3f3;
+
+  // Skeleton
+  --skeleton-color: #585252;
+  --skeleton-shadow: #1a1919;
+}
