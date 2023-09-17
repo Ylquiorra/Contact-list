@@ -1,3 +1,15 @@
+## Стек
+
+| Стэк                   | Технологии                                                    |
+| ---------------------- | ------------------------------------------------------------- |
+| Клиентская часть       | TypeScript, React, Redux-toolkit SCSS                         |
+| Сборщики               | Webpack                                                       |
+| Тестирование           | React Testing Library (+user event), Cypress(e2e), Jest(unit) |
+| Линтеры/Форматирование | ESLint, StyleLint, Prettier                                   |
+| Дополнительно          | Babel, i18n                                                   |
+
+---
+
 ## Запуск проекта
 
 ```
