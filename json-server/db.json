@@ -2,25 +2,105 @@
   "users": [
     {
       "id": "1",
-      "username": "Vladislav",
+      "username": "user",
       "password": "123",
-      "avatar": "https://sun9-60.userapi.com/impg/eqo5sYxr_jyw_yWO9_pKJRMkx8WVwVENfJrecQ/1zVSkEZs5NM.jpg?size=1620x2160&quality=95&sign=73cab6427b2934395f04d96835eb3720&type=album"
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/03/10/44/avatar-311292_1280.png"
     }
   ],
   "contacts": [
     {
+      "id": "1",
+      "name": "Владислав Сидоров",
+      "phoneNumber": "+7 (123) 456-7890",
+      "avatarLink": "https://sun9-75.userapi.com/impg/GcUZmce0N4S01hxz8KPhrcZAFrLOfnnlXSdPMQ/rCgz2RarKwY.jpg?size=1620x2160&quality=95&sign=94e2025fbe17917d4cc7c05315deba68&type=album",
+      "comment": "Frontend Software Enginer",
+      "additionalInformation": "Работает в компании с 5 лет. Хорошо владеет английским языком."
+    },
+    {
+      "id": "2",
+      "name": "Петр Сидоров",
+      "phoneNumber": "+7 (987) 654-3210",
+      "avatarLink": "https://cdn.pixabay.com/photo/2020/04/09/19/19/cartoon-doctor-5022797_1280.jpg",
+      "comment": "Технический специалист",
+      "additionalInformation": "Занимается обслуживанием наших продуктов. Опыт работы - 3 года."
+    },
+    {
+      "id": "3",
+      "name": "Мария Петрова",
+      "phoneNumber": "+7 (111) 222-3333",
+      "avatarLink": "https://cdn.pixabay.com/photo/2016/06/16/08/42/monster-1460885_1280.png",
+      "comment": "Дизайнер",
+      "additionalInformation": "Ответственная за дизайн наших продуктов. Любит работать в команде."
+    },
+    {
+      "id": "4",
+      "name": "Иван Козлов",
+      "phoneNumber": "+7 (555) 123-4567",
+      "avatarLink": "https://cdn.pixabay.com/photo/2021/05/15/10/59/lion-6255523_1280.jpg",
+      "comment": "Разработчик",
+      "additionalInformation": "Опыт в программировании - 7 лет. Специализируется на Java."
+    },
+    {
+      "id": "5",
+      "name": "Елена Морозова",
+      "phoneNumber": "+7 (999) 888-7777",
+      "avatarLink": "https://cdn.pixabay.com/photo/2017/01/31/00/10/cartoon-2022468_1280.png",
+      "comment": "Маркетинг-менеджер",
+      "additionalInformation": "Занимается разработкой маркетинговых кампаний. Обладает аналитическим складом ума."
+    },
+    {
+      "id": "6",
+      "name": "Алексей Зайцев",
+      "phoneNumber": "+7 (444) 567-8901",
+      "avatarLink": "https://cdn.pixabay.com/photo/2017/07/20/07/04/lion-2521451_1280.png",
+      "comment": "Аналитик данных",
+      "additionalInformation": "Специализируется на анализе данных и создании отчетов."
+    },
+    {
+      "id": "7",
+      "name": "Ольга Никитина",
+      "phoneNumber": "+7 (777) 111-2222",
+      "avatarLink": "https://cdn.pixabay.com/photo/2016/03/31/23/37/bird-1297727_1280.png",
+      "comment": "HR-менеджер",
+      "additionalInformation": "Отвечает за подбор персонала и управление кадровыми вопросами."
+    },
+    {
+      "id": "8",
+      "name": "Дмитрий Лебедев",
+      "phoneNumber": "+7 (321) 654-0987",
+      "avatarLink": "https://cdn.pixabay.com/photo/2017/01/31/23/55/cartoon-2028328_1280.png",
+      "comment": "Финансовый аналитик",
+      "additionalInformation": "Анализирует финансовые показатели компании и прогнозирует бюджет."
+    },
+    {
+      "id": "9",
+      "name": "Наталья Смирнова",
+      "phoneNumber": "+7 (890) 765-4321",
+      "avatarLink": "https://cdn.pixabay.com/photo/2016/03/31/21/12/cartoon-1296251_1280.png",
+      "comment": "Клиентский менеджер",
+      "additionalInformation": "Обслуживает ключевых клиентов и занимается вопросами поставок."
+    },
+    {
       "id": "10",
-      "name": "Сергей Кузнецоgsf",
+      "name": "Сергей Кузнецов",
       "phoneNumber": "+7 (234) 567-8901",
-      "avatarLink": "https://sun9-64.userapi.com/impg/f422I-ORh9ke4PpgUMbCon5It3uk-b9g5nUbqw/EzAZ7ti9q-w.jpg?size=1017x678&quality=95&sign=1c3efa060b374cf48a83547a57645b80&type=album",
+      "avatarLink": "https://cdn.pixabay.com/photo/2016/03/31/23/44/adult-1297812_1280.png",
       "comment": "Специалист по IT-поддержке",
       "additionalInformation": "Решает технические проблемы пользователей компьютеров и программного обеспечения."
+    },
+    {
+      "id": "11",
+      "name": "Людмила Павлова",
+      "phoneNumber": "+7 (777) 777-7777",
+      "avatarLink": "https://cdn.pixabay.com/photo/2017/08/15/15/44/frog-2644410_1280.png",
+      "comment": "Администратор офиса",
+      "additionalInformation": "Заботится о порядке в офисе и организации рабочего пространства."
     },
     {
       "id": "12",
       "name": "Андрей Белов",
       "phoneNumber": "+7 (333) 444-5555",
-      "avatarLink": "https://example.com/avatar12.jpg",
+      "avatarLink": "https://cdn.pixabay.com/photo/2016/03/31/20/31/alien-1295828_1280.png",
       "comment": "Программист",
       "additionalInformation": "Разрабатывает новые функциональности для наших продуктов."
     },
@@ -28,7 +108,7 @@
       "id": "13",
       "name": "Виктория Макарова",
       "phoneNumber": "+7 (555) 555-5555",
-      "avatarLink": "https://example.com/avatar13.jpg",
+      "avatarLink": "",
       "comment": "Копирайтер",
       "additionalInformation": "Пишет тексты для наших рекламных материалов и веб-сайта."
     },
@@ -36,7 +116,7 @@
       "id": "14",
       "name": "Александр Егоров",
       "phoneNumber": "+7 (777) 888-9999",
-      "avatarLink": "https://example.com/avatar14.jpg",
+      "avatarLink": "https://cdn.pixabay.com/photo/2012/04/12/14/03/skeleton-30160_1280.png",
       "comment": "Архитектор",
       "additionalInformation": "Разрабатывает архитектуру для наших проектов."
     },
@@ -44,7 +124,7 @@
       "id": "15",
       "name": "Ирина Дмитриева",
       "phoneNumber": "+7 (111) 111-1111",
-      "avatarLink": "https://example.com/avatar15.jpg",
+      "avatarLink": "",
       "comment": "Специалист по закупкам",
       "additionalInformation": "Занимается закупкой материалов и оборудования для компании."
     },
@@ -52,32 +132,9 @@
       "id": "16",
       "name": "Сергей Козлов",
       "phoneNumber": "+7 (222) 333-4444",
-      "avatarLink": "https://example.com/avatar16.jpg",
+      "avatarLink": "",
       "comment": "Специалист по продукту",
       "additionalInformation": "Обеспечивает качество продукции и её соответствие стандартам."
-    },
-    {
-      "id": 1694878599652,
-      "name": "sfsddfdss41241",
-      "phoneNumber": "vsdfsdfsdfds1",
-      "comment": "dsfsdf434",
-      "additionalInformation": "dsfdsfsdf21421"
-    },
-    {
-      "id": 1694879769848,
-      "avatar": "https://sun9-75.userapi.com/impg/GcUZmce0N4S01hxz8KPhrcZAFrLOfnnlXSdPMQ/rCgz2RarKwY.jpg?size=1620x2160&quality=95&sign=94e2025fbe17917d4cc7c05315deba68&type=album",
-      "name": "Владислав",
-      "phoneNumber": "81233112321312",
-      "comment": "авлфалфа",
-      "additionalInformation": "ывлаыдлв"
-    },
-    {
-      "id": 1694893955961,
-      "avatar": "",
-      "name": "adad",
-      "phoneNumber": "dasdasd",
-      "comment": "dasdad",
-      "additionalInformation": "asdads"
     }
   ]
 }

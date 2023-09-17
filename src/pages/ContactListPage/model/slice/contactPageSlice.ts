@@ -6,7 +6,7 @@ const initialState: ContactPageSchema = {
   list: [],
   search: '',
   _inited: false,
-  isLoading: false,
+  isLoading: true,
   error: undefined,
 }
 
