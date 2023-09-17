@@ -12,6 +12,8 @@
 
 ## Запуск проекта
 
+Версия node - `v18.16.1`
+
 ```
 npm install - устанавливаем зависимости
 npm run start:dev или npm run start:dev - запуск сервера + frontend проекта в dev режиме
